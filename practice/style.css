@@ -1,0 +1,46 @@
+:root {
+  scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    background: #000d27;
+    color: #f5edff;
+    display: flex;
+  }
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Nunito", sans-serif;
+    
+  }
+
+  #main {
+    margin-top: 60px;
+    padding: 20px 30px;
+    transition: all 0.3s;
+  }
+  @media (max-width: 1199px) {
+    #main {
+      padding: 20px;
+    }
+  }
+  
+.card{
+    position: relative;
+    margin-top: 40px;
+    border: 2px blueviolet;
+    border-radius: 8px;
+    box-shadow: 0 0 30px black;
+    display: flex;
+}  
+
+.square{
+    height: 500px;
+    width: 500px;
+    align-content: center;
+    justify-content: center;
+    background-color: #a4d0fb2e;
+    border-radius: 10px;
+    box-sizing: border-box;
+    
+}
